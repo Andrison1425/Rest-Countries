@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 14px;
+    color:$azul-muy-oscuro-light;
+    margin:0;
+}
+
+body, a{
+    color:$azul-muy-oscuro-light;
+}
+
+.p-content{
+    padding: 0 3rem;
+}
+
+//Dark Mode
+
+body.dark-mode{
+    background-color:$azul-oscuro ;
+    color:$blanco;
+    a{
+        color:$blanco;
+    }
+
+    .listado__main{
+        background-color: $azul-muy-oscuro-dark;
+    }
+
+    .listado__cont-input, .listado__select, .listado__pais{
+        background-color: $azul-oscuro;
+        color:$blanco;
+    }
+
+    .listado__cont-input *{
+        color:$blanco;
+        background-color: $azul-oscuro;
+    }
+
+    .header__header{
+        border-bottom: solid 4px lighten($azul-muy-oscuro-dark, 10);
+    }
+
+    .box{
+        color:$blanco;
+        background-color: $azul-oscuro;
+    }
+
+    .info__main{
+        background-color: $azul-muy-oscuro-dark;
+    }
+}
